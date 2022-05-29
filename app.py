@@ -70,5 +70,5 @@ def update(contact_id):
         flash('Updating a contact successfully')
         return redirect('/')
 
-
-app.run(debug=True)
+if __name__=='__main__':
+    app.run(debug=True)
